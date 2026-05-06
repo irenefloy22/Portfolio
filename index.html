@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irene Maria Floy | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0b1220;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 90px 20px 40px;
+      background: linear-gradient(135deg, #111827, #0b1220);
+    }
+
+    header h1 {
+      font-size: 52px;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #93c5fd;
+      font-size: 18px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 12px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    /* Badges */
+    .badges {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .badges span {
+      background: #1e293b;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 5px;
+      display: inline-block;
+      font-size: 13px;
+    }
+
+    /* About */
+    .about p {
+      margin-bottom: 15px;
+      color: #cbd5e1;
+    }
+
+    /* Skills */
+    .skills span {
+      display: inline-block;
+      background: linear-gradient(135deg, #1e293b, #334155);
+      padding: 10px 16px;
+      margin: 6px;
+      border-radius: 25px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .skills span:hover {
+      transform: scale(1.08);
+      background: #38bdf8;
+      color: #0b1220;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #1f2937;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #38bdf8;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      margin-top: 40px;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Irene Maria Floy</h1>
+  <p>B.Tech CSE (AI & ML Specialization) | Aspiring AI Engineer</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- BADGES -->
+<section class="badges">
+  <span>🎓 B.Tech CSE (AI & ML)</span>
+  <span>🤖 AI & Machine Learning Enthusiast</span>
+  <span>💻 Software Developer Aspirant</span>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+
+  <p>
+    I am <b>Irene Maria Floy</b>, a B.Tech Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning at Chinmaya Vishwa Vidyapeeth.
+  </p>
+
+  <p>
+    I am passionate about building intelligent systems and data-driven applications that solve real-world problems using Machine Learning and core software development principles.
+  </p>
+
+  <p>
+    My focus lies in strengthening my foundation in computer science while actively exploring AI models, backend development, and predictive analytics systems.
+  </p>
+
+  <p>
+    I enjoy working on projects that involve data processing, prediction models, and web-based AI applications.
+  </p>
+
+  <p>
+    My long-term goal is to become a skilled AI Engineer and contribute to impactful technological solutions.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2>Technical Skills</h2>
+
+  <span>Python</span>
+  <span>Java</span>
+  <span>C Programming</span>
+  <span>Data Structures & Algorithms</span>
+  <span>DBMS</span>
+  <span>Machine Learning</span>
+  <span>AI Fundamentals</span>
+  <span>Flask Framework</span>
+  <span>Data Preprocessing</span>
+  <span>Problem Solving</span>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>Heart Disease Prediction</h3>
+      <p>AI-based Flask web application that predicts heart disease using machine learning models.</p>
+    </div>
+
+    <div class="card">
+      <h3>Salary Prediction Model</h3>
+      <p>Machine learning model that predicts salary based on experience using regression techniques.</p>
+    </div>
+
+    <div class="card">
+      <h3>House Price Prediction</h3>
+      <p>Regression-based ML system to estimate real estate prices using dataset analysis.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:floyirenemaria@gmail.com">floyirenemaria@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/irenefloy22" target="_blank">github.com/irenefloy22</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Irene Maria Floy | Built with passion 🚀</p>
+</footer>
+
+</body>
+</html>
